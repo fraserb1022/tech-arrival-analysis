@@ -19,8 +19,8 @@ def load_data():
     # paths
     script_dir = Path(__file__).parent
 
-    schedule_path = script_dir / "Schedule.csv"
-    gps_path = script_dir / "GPS.csv"
+    schedule_path = script_dir / "schedule.csv"
+    gps_path = script_dir / "gps.csv"
     
     # load Schedule.csv 
     try:
